@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Tour Sign Up Suite" duration-ms="15464" started-at="2020-09-01T13:50:29Z" finished-at="2020-09-01T13:50:45Z">
+    <groups>
+    </groups>
+    <test name="Register" duration-ms="15464" started-at="2020-09-01T13:50:29Z" finished-at="2020-09-01T13:50:45Z">
+      <class name="com.fisdom.testcases.Register">
+        <test-method status="PASS" signature="triggerDependency(java.lang.String)[pri:0, instance:com.fisdom.testcases.Register@1cab0bfb]" name="triggerDependency" is-config="true" duration-ms="13832" started-at="2020-09-01T13:50:29Z" finished-at="2020-09-01T13:50:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- triggerDependency -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.fisdom.testcases.Register@1cab0bfb]" name="setUp" is-config="true" duration-ms="16" started-at="2020-09-01T13:50:43Z" finished-at="2020-09-01T13:50:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.fisdom.testcases.Register@1cab0bfb]" name="login" duration-ms="70" started-at="2020-09-01T13:50:43Z" finished-at="2020-09-01T13:50:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.fisdom.testcases.Register@1cab0bfb]" name="closeBrowser" is-config="true" duration-ms="1328" started-at="2020-09-01T13:50:43Z" finished-at="2020-09-01T13:50:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.fisdom.testcases.Register -->
+    </test> <!-- Register -->
+  </suite> <!-- Tour Sign Up Suite -->
+</testng-results>

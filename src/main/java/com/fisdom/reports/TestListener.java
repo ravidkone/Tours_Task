@@ -16,7 +16,7 @@ import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.fisdom.utility.CommonUtility;
 import com.fisdom.utility.TestBase;
 
-public class TestListener extends TestBase implements ITestListener {
+public class TestListener implements ITestListener {
 
 	// Extent Report Declarations
 	private static ExtentReports extent = ExtentManager.createInstance();
@@ -64,7 +64,7 @@ public class TestListener extends TestBase implements ITestListener {
 		try {
 			ExtentManager.extLogger.log(Status.FAIL,
 					"Failed" + ExtentManager.extLogger
-							.addScreenCaptureFromPath(CommonUtility.takeScreenShotWebReturnPath(driver,
+							.addScreenCaptureFromPath(CommonUtility.takeScreenShotWebReturnPath(TestBase.driver,
 									TestBase.sClassNameForScreenShot + "_" + result.getMethod().getMethodName())));
 		} catch (IOException e) {
 		}
@@ -78,7 +78,7 @@ public class TestListener extends TestBase implements ITestListener {
 
 			ExtentManager.extLogger.log(Status.SKIP,
 					"SKIP: " + ExtentManager.extLogger
-							.addScreenCaptureFromPath(CommonUtility.takeScreenShotWebReturnPath(driver,
+							.addScreenCaptureFromPath(CommonUtility.takeScreenShotWebReturnPath(TestBase.driver,
 									TestBase.sClassNameForScreenShot + "_" + result.getMethod().getMethodName())));
 		} catch (IOException e) {
 		}

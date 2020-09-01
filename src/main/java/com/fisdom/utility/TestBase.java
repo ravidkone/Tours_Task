@@ -1,27 +1,27 @@
 package com.fisdom.utility;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 
 import com.aventstack.extentreports.ExtentTest;
 
-@Listeners(com.fisdom.reports.TestListener.class)
+//@Listeners(com.fisdom.reports.TestListener.class)
 public class TestBase {
 
 	public static BrowserUtility oBrowserUtil = new BrowserUtility();
 	public static CommonUtility oCommon = new CommonUtility();
 	public static Constants oConstant = new Constants();
 	public static String sHost = null;
-	public static RemoteWebDriver driver;
 	public static String sClassNameForScreenShot;
 
     public static ExtentTest extLogger;
-//  public static ExtentTest t1;
-//	public static WebDriver driver;
+	public static WebDriver driver;
 	
 	Logger log=Logger.getLogger(getClass().getSimpleName());
 
@@ -30,8 +30,8 @@ public class TestBase {
 	public void triggerDependency(String browser) throws Exception {
 		log.info("Test running on browser: "+browser);
 		
-		oCommon.loadConfigProperty(System.getProperty("user.dir")+"/src/main/java/com/sap/properties/config.properties");
-		oCommon.loadLog4jProperty(System.getProperty("user.dir")+"/src/main/java/com/sap/properties/log4j.properties");
+		oCommon.loadConfigProperty(System.getProperty("user.dir")+"/src/main/java/com/fisdom/properties/config.properties");
+		oCommon.loadLog4jProperty(System.getProperty("user.dir")+"/src/main/java/com/fisdom/properties/log4j.properties");
 
 		if (System.getProperty("AutomationRunning").equalsIgnoreCase(Constants.AutomationWeb)) {
 		//	oBrowserUtil.launchBrowser(System.getProperty("browser"));
@@ -50,7 +50,7 @@ public class TestBase {
 	public void closeBrowser() {
 		if(System.getProperty("AutomationRunning").equalsIgnoreCase(Constants.AutomationWeb)) {
 			driver.quit();
-			log.info("Browser closed");
+			log.info("Browser Closed");
 	}
 	}
 }

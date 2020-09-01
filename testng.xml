@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tour Sign Up Suite">
+
+		<listeners> 
+		<listener class-name="com.fisdom.reports.TestListener"/> 
+		</listeners>
+	
+
+	<test name="Register">
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.fisdom.testcases.Register" />
+		</classes>
+	</test>
+
+
+</suite> 

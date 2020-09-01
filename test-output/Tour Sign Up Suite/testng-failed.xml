@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Tour Sign Up Suite]">
+  <test thread-count="5" name="Register(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.fisdom.testcases.Register">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="triggerDependency"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.fisdom.testcases.Register -->
+    </classes>
+  </test> <!-- Register(failed) -->
+</suite> <!-- Failed suite [Tour Sign Up Suite] -->
