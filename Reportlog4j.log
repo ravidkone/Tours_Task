@@ -6,3 +6,75 @@
 2020-09-01 19:20:43 INFO  Register 40 - Automation running on: Web
 2020-09-01 19:20:43 INFO  Register 41 - Environment is: stage
 2020-09-01 19:20:45 INFO  Register 53 - Browser Closed
+2020-09-02 11:43:07 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-02 11:43:51 INFO  Register 40 - Automation running on: Web
+2020-09-02 11:43:51 INFO  Register 41 - Environment is: stage
+2020-09-02 11:44:00 INFO  Register 53 - Browser Closed
+2020-09-02 12:54:52 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-02 12:55:25 INFO  Register 40 - Automation running on: Web
+2020-09-02 12:55:25 INFO  Register 41 - Environment is: stage
+2020-09-02 12:55:27 INFO  Register 53 - Browser Closed
+2020-09-02 13:01:54 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-02 13:02:26 INFO  Register 40 - Automation running on: Web
+2020-09-02 13:02:26 INFO  Register 41 - Environment is: stage
+2020-09-02 13:02:27 INFO  Register 31 - Title Matched
+2020-09-02 13:02:28 INFO  Register 53 - Browser Closed
+2020-09-02 13:06:13 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-02 13:06:36 INFO  Register 40 - Automation running on: Web
+2020-09-02 13:06:36 INFO  Register 41 - Environment is: stage
+2020-09-02 13:06:38 INFO  Register 53 - Browser Closed
+2020-09-02 13:20:24 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-02 13:21:00 INFO  LoginTest 40 - Automation running on: Web
+2020-09-02 13:21:00 INFO  LoginTest 41 - Environment is: stage
+2020-09-02 13:21:05 INFO  LoginTest 53 - Browser Closed
+2020-09-02 13:31:27 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-02 13:31:50 INFO  LoginTest 40 - Automation running on: Web
+2020-09-02 13:31:50 INFO  LoginTest 41 - Environment is: stage
+2020-09-02 13:31:54 INFO  LoginTest 53 - Browser Closed
+2020-09-02 13:46:12 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-02 13:46:35 INFO  LoginTest 40 - Automation running on: Web
+2020-09-02 13:46:35 INFO  LoginTest 41 - Environment is: stage
+2020-09-02 13:46:41 INFO  LoginTest 53 - Browser Closed
+2020-09-02 14:08:31 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-02 14:08:55 INFO  LoginTest 40 - Automation running on: Web
+2020-09-02 14:08:55 INFO  LoginTest 41 - Environment is: stage
+2020-09-02 14:09:09 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (973f9674ca3b48cf86a4db5ee6b10ce6)] -> xpath: (//span[text()='Logout'])[1]]
+2020-09-02 14:13:06 INFO  LoginTest 53 - Browser Closed
+2020-09-02 14:19:38 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-02 14:20:01 INFO  LoginTest 40 - Automation running on: Web
+2020-09-02 14:20:01 INFO  LoginTest 41 - Environment is: stage
+2020-09-02 14:20:10 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (eae8924e1be3286a47e2fa1549169e6a)] -> xpath: (//button[text()='LOGIN'])[1]]
+2020-09-02 14:20:15 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (eae8924e1be3286a47e2fa1549169e6a)] -> xpath: (//span[text()='Logout'])[1]]
+2020-09-02 14:24:12 INFO  LoginTest 53 - Browser Closed
+2020-09-02 14:53:50 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-02 14:54:13 INFO  LoginTest 40 - Automation running on: Web
+2020-09-02 14:54:13 INFO  LoginTest 41 - Environment is: stage
+2020-09-02 14:54:21 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (93039c84d47a121be45f9d7486536193)] -> xpath: (//button[text()='LOGIN'])[1]]
+2020-09-02 14:54:27 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (93039c84d47a121be45f9d7486536193)] -> xpath: (//span[text()='Logout'])[1]]
+2020-09-02 14:54:29 INFO  LoginTest 53 - Browser Closed
+2020-09-02 14:55:31 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-02 14:55:52 INFO  HomeTest 40 - Automation running on: Web
+2020-09-02 14:55:52 INFO  HomeTest 41 - Environment is: stage
+2020-09-02 14:56:32 INFO  HomeTest 53 - Browser Closed
+2020-09-02 15:26:34 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-02 15:27:00 INFO  LoginTest 40 - Automation running on: Web
+2020-09-02 15:27:00 INFO  LoginTest 41 - Environment is: stage
+2020-09-02 15:27:09 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (7f118f9a82115a9edbbd3cfac90a081b)] -> xpath: (//button[text()='LOGIN'])[1]]
+2020-09-02 15:27:15 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (7f118f9a82115a9edbbd3cfac90a081b)] -> xpath: (//span[text()='Logout'])[1]]
+2020-09-02 15:27:17 INFO  LoginTest 53 - Browser Closed
+2020-09-02 15:31:12 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-02 15:31:37 INFO  HomeTest 40 - Automation running on: Web
+2020-09-02 15:31:37 INFO  HomeTest 41 - Environment is: stage
+2020-09-02 15:31:45 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (cc6165d4bcd74a4782fac4f6c8342192)] -> xpath: (//button[text()='LOGIN'])[1]]
+2020-09-02 15:43:44 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-02 15:44:09 INFO  LoginTest 40 - Automation running on: Web
+2020-09-02 15:44:09 INFO  LoginTest 41 - Environment is: stage
+2020-09-02 15:44:18 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (bb68b6162d8f51fa5561f529728a9190)] -> xpath: (//button[text()='LOGIN'])[1]]
+2020-09-02 15:44:25 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (bb68b6162d8f51fa5561f529728a9190)] -> xpath: (//span[text()='Logout'])[1]]
+2020-09-02 15:44:28 INFO  LoginTest 53 - Browser Closed
+2020-09-02 15:58:30 INFO  BrowserUtility 22 - Launching Browser: chrome
+2020-09-02 15:58:52 INFO  LoginTest 40 - Automation running on: Web
+2020-09-02 15:58:52 INFO  LoginTest 41 - Environment is: stage
+2020-09-02 15:59:03 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (9761f0b1b6d5dafb185a8d1d706516b3)] -> xpath: (//button[text()='LOGIN'])[1]]
+2020-09-02 15:59:10 INFO  BrowserUtility 50 - Displayed [[ChromeDriver: chrome on WINDOWS (9761f0b1b6d5dafb185a8d1d706516b3)] -> xpath: (//span[text()='Logout'])[1]]
+2020-09-02 15:59:13 INFO  LoginTest 53 - Browser Closed

@@ -8,7 +8,7 @@
           <include name="closeBrowser"/>
           <include name="triggerDependency"/>
           <include name="setUp"/>
-          <include name="login"/>
+          <include name="verifyTitle"/>
         </methods>
       </class> <!-- com.fisdom.testcases.Register -->
     </classes>

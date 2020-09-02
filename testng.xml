@@ -7,12 +7,11 @@
 		</listeners>
 	
 
-	<test name="Register">
+	<test name="LoginPage">
 	<parameter name="browser" value="chrome"></parameter>
 		<classes>
-			<class name="com.fisdom.testcases.Register" />
+			<class name="com.fisdom.testcases.LoginTest" />			
 		</classes>
 	</test>
-
 
 </suite> 
